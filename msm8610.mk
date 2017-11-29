@@ -123,12 +123,12 @@ PRODUCT_COPY_FILES += \
 # Motorola
 PRODUCT_PACKAGES += \
     charge_only_mode \
-    libmoto
+    #libmoto
 
 # Motorola Camera permissions
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/com.motorola.camera.xml:system/etc/permissions/com.motorola.camera.xml \
-    $(LOCAL_PATH)/configs/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/configs/com.motorola.camera.xml:system/etc/permissions/com.motorola.camera.xml \
+#    $(LOCAL_PATH)/configs/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml
 
 # OMX
 PRODUCT_PACKAGES += \
