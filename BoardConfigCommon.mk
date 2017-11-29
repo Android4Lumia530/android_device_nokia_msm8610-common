@@ -23,7 +23,7 @@
 
 COMMON_PATH := device/microsoft/msm8610-common
 
-BOARD_VENDOR := qcom
+BOARD_VENDOR := microsoft
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno302
@@ -42,7 +42,7 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := MSM8610
+TARGET_BOOTLOADER_BOARD_NAME := qcom
 TARGET_NO_BOOTLOADER := true
 
 # Charger
