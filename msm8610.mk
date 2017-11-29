@@ -198,7 +198,7 @@ PRODUCT_PACKAGES += \
     libQWiFiSoftApCfg \
     libqsap_sdk
 
-PRODUCT_GMS_CLIENTID_BASE := android-motorola
+PRODUCT_GMS_CLIENTID_BASE := android
 
 # Inhert dalvik heap values
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
