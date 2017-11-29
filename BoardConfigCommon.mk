@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2017 - Google Play Edition Remixed Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,9 +21,9 @@
 # definition file).
 #
 
-COMMON_PATH := device/motorola/msm8610-common
+COMMON_PATH := device/microsoft/msm8610-common
 
-BOARD_VENDOR := motorola-qcom
+BOARD_VENDOR := qcom
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno302
@@ -71,7 +71,7 @@ TARGET_PROVIDES_LIBLIGHT := true
 TARGET_NO_RPC := true
 
 # Global flags
-COMMON_GLOBAL_CFLAGS += -DMOTOROLA_UIDS -DQCOM_HARDWARE -DCAMERA_VENDOR_L_COMPAT
+COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE -DCAMERA_VENDOR_L_COMPAT
 TARGET_NR_SVC_SUPP_GIDS := 32
 
 # Display
