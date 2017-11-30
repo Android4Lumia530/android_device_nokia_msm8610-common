@@ -21,7 +21,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter condor otus,$(TARGET_DEVICE)),)
+ifneq ($(filter fh,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 
