@@ -21,7 +21,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter fh,$(TARGET_DEVICE)),)
+ifneq ($(filter rock,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 
