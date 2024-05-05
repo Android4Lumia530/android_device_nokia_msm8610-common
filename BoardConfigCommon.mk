@@ -21,9 +21,9 @@
 # definition file).
 #
 
-COMMON_PATH := device/microsoft/msm8610-common
+COMMON_PATH := device/nokia/msm8610-common
 
-BOARD_VENDOR := microsoft
+BOARD_VENDOR := nokia
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno302
