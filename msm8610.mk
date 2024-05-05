@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-COMMON_PATH := device/microsoft/msm8610-common
+COMMON_PATH := device/nokia/msm8610-common
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # common vendor blobs
-$(call inherit-product, vendor/microsoft/msm8610-common/msm8610-common-vendor.mk)
+$(call inherit-product, vendor/nokia/msm8610-common/msm8610-common-vendor.mk)
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -77,8 +77,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 960
-TARGET_SCREEN_WIDTH := 540
+TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_WIDTH := 480
 
 PRODUCT_PACKAGES += \
     gralloc.msm8610 \
@@ -119,16 +119,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:system/etc/media_codecs.xml \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
-
-# Motorola
-PRODUCT_PACKAGES += \
-    charge_only_mode \
-    #libmoto
-
-# Motorola Camera permissions
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/configs/com.motorola.camera.xml:system/etc/permissions/com.motorola.camera.xml \
-#    $(LOCAL_PATH)/configs/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml
 
 # OMX
 PRODUCT_PACKAGES += \
